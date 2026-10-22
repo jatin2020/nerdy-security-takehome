@@ -1,0 +1,42 @@
+{
+  "usr-sec-prod-01": {
+    "actor_id": "usr-sec-prod-01",
+    "username": "alex.chen",
+    "role": "Lead Infrastructure Architect",
+    "is_privileged": true,
+    "environment": "production",
+    "owner": "platform-security@example.com",
+    "affected_service": "identity-gateway",
+    "typical_countries": ["US", "CA"]
+  },
+  "usr-student-02": {
+    "actor_id": "usr-student-02",
+    "username": "jordan.taylor",
+    "role": "Student Learner",
+    "is_privileged": false,
+    "environment": "production",
+    "owner": "student-support@example.com",
+    "affected_service": "learning-portal",
+    "typical_countries": ["US"]
+  },
+  "usr-tutor-04": {
+    "actor_id": "usr-tutor-04",
+    "username": "sam.martinez",
+    "role": "Calculus Tutor",
+    "is_privileged": false,
+    "environment": "production",
+    "owner": "tutor-operations@example.com",
+    "affected_service": "tutoring-classroom",
+    "typical_countries": ["US"]
+  },
+  "usr-no-events-05": {
+    "actor_id": "usr-no-events-05",
+    "username": "pat.morgan",
+    "role": "Junior Data Analyst",
+    "is_privileged": false,
+    "environment": "staging",
+    "owner": "analytics-ops@example.com",
+    "affected_service": "reporting-warehouse",
+    "typical_countries": ["US"]
+  }
+}

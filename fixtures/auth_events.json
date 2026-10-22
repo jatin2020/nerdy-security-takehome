@@ -1,0 +1,89 @@
+{
+  "usr-sec-prod-01": [
+    {
+      "event_id": "evt-1001",
+      "actor_id": "usr-sec-prod-01",
+      "timestamp": "2026-10-22T08:15:00Z",
+      "status": "SUCCESS",
+      "country": "DE",
+      "ip_address": "198.51.100.45",
+      "mfa_evidence": {
+        "mfa_used": true,
+        "method": "FIDO2_WEBAUTHN"
+      },
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    },
+    {
+      "event_id": "evt-1002",
+      "actor_id": "usr-sec-prod-01",
+      "timestamp": "2026-10-21T18:30:00Z",
+      "status": "SUCCESS",
+      "country": "US",
+      "ip_address": "198.51.100.12",
+      "mfa_evidence": {
+        "mfa_used": true,
+        "method": "FIDO2_WEBAUTHN"
+      },
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    }
+  ],
+  "usr-student-02": [
+    {
+      "event_id": "evt-2001",
+      "actor_id": "usr-student-02",
+      "timestamp": "2026-10-22T07:10:00Z",
+      "status": "FAILURE",
+      "country": "RU",
+      "ip_address": "203.0.113.88",
+      "mfa_evidence": {
+        "mfa_used": false,
+        "method": null
+      },
+      "failure_reason": "INVALID_PASSWORD",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    },
+    {
+      "event_id": "evt-2002",
+      "actor_id": "usr-student-02",
+      "timestamp": "2026-10-22T07:11:15Z",
+      "status": "FAILURE",
+      "country": "RU",
+      "ip_address": "203.0.113.88",
+      "mfa_evidence": {
+        "mfa_used": false,
+        "method": null
+      },
+      "failure_reason": "ACCOUNT_LOCKED_ATTEMPTS_EXCEEDED",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    }
+  ],
+  "usr-tutor-04": [
+    {
+      "event_id": "evt-4001",
+      "actor_id": "usr-tutor-04",
+      "timestamp": "2026-10-22T09:00:00Z",
+      "status": "SUCCESS",
+      "country": "BR",
+      "ip_address": "198.51.100.77",
+      "mfa_evidence": {
+        "mfa_used": true,
+        "method": "SMS_OTP"
+      },
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15"
+    },
+    {
+      "event_id": "evt-4002",
+      "actor_id": "usr-tutor-04",
+      "timestamp": "2026-10-20T14:00:00Z",
+      "status": "SUCCESS",
+      "country": "US",
+      "ip_address": "198.51.100.90",
+      "mfa_evidence": {
+        "mfa_used": true,
+        "method": "SMS_OTP"
+      },
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15"
+    }
+  ],
+  "usr-no-events-05": []
+}
